@@ -30,10 +30,10 @@ FASTX_BASE_URL = "https://2eee7.com/@Access/@Bot/2eee7/@public/"
 FASTX_API_KEY = "MURAD_1A19846FEA646F45D8EE07B6"
 
 # সঠিক API এন্ডপয়েন্ট (ডকুমেন্টেশন অনুযায়ী)
-GETNUM_URL = f"{FASTX_BASE_URL}/@Access/@Bot/2eee7/@public/api/getnum"
-LIVE_CONSOLE_URL = f"{FASTX_BASE_URL}/@Access/@Bot/api/live-console"
-SUCCESS_OTP_URL = f"{FASTX_BASE_URL}/@Access/@Bot/2eee7/@public/api/success-otp-info"
-LIVEACCESS_URL = f"{FASTX_BASE_URL}/@Access/@Bot/2eee7/@public/api/liveaccess"
+GETNUM_URL = f"{FASTX_BASE_URL}api/getnum"
+LIVE_CONSOLE_URL = f"{FASTX_BASE_URL}api/live-console"
+SUCCESS_OTP_URL = f"{FASTX_BASE_URL}api/success-otp-info"
+LIVEACCESS_URL = f"{FASTX_BASE_URL}api/liveaccess"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
